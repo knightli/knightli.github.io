@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+    a{
+      text-decoration:none;
+    }
+    .form-hide {
+      display: none;
+    }
+    #result {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .item {
+      border: 1px solid gray;
+      margin-top: -1px;
+      margin-left: -1px;
+    }
+    </style>
+  </head>
+  <body>
+  <div class="form-container">
+    <div class="form-toggler">定制参数(<a href="#" id="form-toggler" style="color:green;">-</a>)</div>
+    <form class="form-show" id="fontConfig" method="get" action="./index.html" >
+      <p><input name="text" id="text" row="5" placeholder="示例文字" value="示例文字" /></p>
+      <p>
+        <label for="vcolor">字体下色vcolor</label>
+        <input type="text" id="vcolor" name="vcolor" value="9d0a0f" />
+      </p>
+      <p>
+        <label for="color">字体上色color</label>
+        <input type="text" id="color" name="color" value="9d0a0f" />
+      </p>
+      <p>
+        <label for="bgcolor">字体背景色bgcolor</label>
+        <input type="text" id="bgcolor" name="bgcolor" value="fff" />
+      </p>
+      <p>
+        <label for="fsize">字体大小fsize</label>
+        <input type="text" id="fsize" name="fsize" value="50" />
+      </p>
+      <input type="submit" value="生成" />
+    </form>
+  </div>
+  <div id="result"></div>
+  <script>
+  //form
+  (function(){
+
+    var _isFormHide = false;
+    if(location.search && location.search.indexOf('text=') > 0 ) {
+      _isFormHide = true;
+      updateFormHide();
+    }
+
+    function updateFormHide() {
+      document.forms['fontConfig'].classList.toggle("form-hide", _isFormHide);
+      document.getElementById('form-toggler').innerHTML = _isFormHide ? '+' : '-';
+    }
+
+    document.getElementById('form-toggler').addEventListener('click', function(){
+      _isFormHide = !_isFormHide;
+      updateFormHide();
+    });
+
+  })();
+  </script>
+
+  <script>
+  //generator
+  (function(){
+    var _ALL_FONTS = [{"text":"向佳红中华金榜体","value":"xjhzhjb.ttf"},{"text":"叶根友刀锋黑草","value":"cao5.ttf"},{"text":"叶根友毛笔行书简体","value":"ygymbxsjt.ttf"},{"text":"叶根友书法","value":"yegenyou.ttf"},{"text":"鲁迅字体","value":"luxun.ttf"},{"text":"奔腾草书","value":"cao28.ttf"},{"text":"博洋草书","value":"cao8.ttf"},{"text":"博洋行书","value":"12.ttf"},{"text":"博洋连笔字体","value":"cao20.ttf"},{"text":"蔡云汉行书","value":"cyh.ttf"},{"text":"陈继世硬笔行书","value":"ybxs.ttf"},{"text":"晨光大字","value":"cgdzi.ttf"},{"text":"德彪钢笔行书字库","value":"gbxs.ttf"},{"text":"邓小平字体","value":"dengxiaoping.ttf"},{"text":"段宁毛笔行书","value":"dnmbxs.ttf"},{"text":"段宁毛笔行书","value":"1.ttf"},{"text":"繁启体","value":"fqti.TTF"},{"text":"方正狂草","value":"cao7.ttf"},{"text":"方正硬笔行书简体","value":"jxs.ttf"},{"text":"洪俊硬笔行草体","value":"cao25.ttf"},{"text":"禚效锋行草体","value":"cao3.ttf"},{"text":"禚效锋行草","value":"gaoxiaofeng.ttf"},{"text":"逐浪报人书法","value":"zlbrsfxt.otf"},{"text":"钟齐志莽行书","value":"23.ttf"},{"text":"钟齐余好建行艺体","value":"22.ttf"},{"text":"钟齐王庆华毛笔","value":"wqhmb.TTF"},{"text":"钟齐流江草体","value":"zqljct.ttf"},{"text":"钟齐立强行书简","value":"8.ttf"},{"text":"钟齐翰墨毛笔","value":"zqhmmb.TTF"},{"text":"钟齐段宁行书","value":"21.ttf"},{"text":"钟齐陈伟勋硬笔行书字库","value":"7.ttf"},{"text":"钟齐陈伟勋硬笔行楷简","value":"6.ttf"},{"text":"中山行书字体","value":"zhongshan.ttf"},{"text":"章草","value":"zcao.ttf"},{"text":"禹卫书法行书简体","value":"5.ttf"},{"text":"于右任字体","value":"yuzuoren.ttf"},{"text":"于右任标","value":"cao10.ttf"},{"text":"游狼近草体","value":"cao29.ttf"},{"text":"叶根友神工体","value":"yegenyoushengongti.ttf"},{"text":"叶根友飘然劲草繁","value":"cao30.ttf"},{"text":"叶根友毛笔特色简体","value":"ygytsjt.ttf"},{"text":"叶根友毛笔行书","value":"20.ttf"},{"text":"叶根友疾风草书","value":"cao4.ttf"},{"text":"叶根友钢笔行书简体","value":"ygy.ttf"},{"text":"胭脂连体","value":"cao14.ttf"},{"text":"徐金如硬笔行楷","value":"24.ttf"},{"text":"邢世新硬笔行书简体","value":"xsx.ttf"},{"text":"新蒂赵孟頫楷书","value":"xdzmt.otf"},{"text":"向佳红毛笔行书","value":"xjhmbxs.ttf"},{"text":"田氏颜真卿书法","value":"m2a.ttf"},{"text":"体坊禚效锋行草","value":"18.ttf"},{"text":"腾祥伯当行楷","value":"13.ttf"},{"text":"腾祥伯当草书","value":"cao27.ttf"},{"text":"苏新诗鼠标行书","value":"25.ttf"},{"text":"四海行书简体","value":"14.ttf"},{"text":"书体坊赵九江钢笔行书","value":"zjj.ttf"},{"text":"书体坊硬笔行书","value":"17.ttf"},{"text":"书体坊硬笔草书","value":"cao24.ttf"},{"text":"书体坊安景臣钢笔行书","value":"stf.ttf"},{"text":"锐字云行草体","value":"cao26.ttf"},{"text":"启功体","value":"qigongti.ttf"},{"text":"米芾毛笔书法","value":"miditi.ttf"},{"text":"迷你简细行楷","value":"xxk.ttf"},{"text":"迷你简行楷","value":"mnj.ttf"},{"text":"迷你简黄草","value":"cao2.ttf"},{"text":"毛泽东字体","value":"maozedong.ttf"},{"text":"毛泽东毛笔书法","value":"cao23.ttf"},{"text":"流江钢笔草书","value":"cao6.ttf"},{"text":"柳公权柳体","value":"m1.ttf"},{"text":"良怀行书空心体","value":"16.ttf"},{"text":"良怀行书","value":"4.ttf"},{"text":"良怀行草","value":"cao22.ttf"},{"text":"李旭科毛笔行书","value":"3.ttf"},{"text":"李旭科毛笔行书","value":"lxkmbxs.ttf"},{"text":"李洤标准草书书法","value":"cao13.ttf"},{"text":"经典舒同体","value":"sutong.ttf"},{"text":"经典行书简","value":"2.ttf"},{"text":"经典繁毛楷","value":"jdfmt.TTF"},{"text":"建刚草书字体","value":"cao21.ttf"}];
+
+    function output(){
+      if(location.search && location.search.indexOf('text=') > 0 ) {
+        _ALL_FONTS.forEach(function(font, index){
+          var item = generatePreview(font);
+          document.getElementById('result').appendChild(item);
+        });
+      }
+    }
+
+    function generatePreview(font){
+      var item = document.createElement('div');
+      item.classList = 'item';
+      var title = document.createElement('div');
+      title.innerHTML = font.text;
+      var img = document.createElement('img');
+      img.src = 'http://www.shufazi.cn/image.png' + window.location.search + '&output=png&alpha=no&shadow=no&transparent=no&icon=no&mirror=no&icon_size=48&left_spacing=6&spacing=4&top_spacing=5&font=' + font.value;
+      item.appendChild(title);
+      item.appendChild(img);
+      return item;
+    }
+
+    output();
+    
+  })();
+  </script>
+  </body>
+</html>
