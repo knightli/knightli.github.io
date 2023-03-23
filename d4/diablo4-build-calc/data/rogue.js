@@ -25,12 +25,12 @@ rogueData["Trunk Data"] = {
 		y: 2437.774
 	},
 	"Imbuements": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		requiredPoints: 16,
 		x: 513.93,
 		y: 3341.84
 	},
-	"Ultimate": {
+	"终极技能": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: -1204.781,
@@ -1100,9 +1100,9 @@ Imbue your weapons with frigid energies. Your next {#} Imbueable Skills deal Col
 	},
 };
 
-rogueData["Ultimate"] = {
+rogueData["终极技能"] = {
 	"Innervation": {
-		connections: [ "Ultimate", "Alchemist's Fortune", "Second Wind" ],
+		connections: [ "终极技能", "Alchemist's Fortune", "Second Wind" ],
 		description: `Lucky Hit: Up to a {#}% chance to gain {#} Energy.`,
 		id: 101,
 		maxPoints: 3,
@@ -1129,7 +1129,7 @@ rogueData["Ultimate"] = {
 		y: -521.42
 	},
 	"Shadow Clone": {
-		connections: [ "Prime Shadow Clone", "Ultimate" ],
+		connections: [ "Prime Shadow Clone", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Your shadow mimicks your actions for {#} seconds.
 The shadow deals {#}% of your damage.`,
@@ -1159,7 +1159,7 @@ The shadow deals {#}% of your damage.`,
 		y: -623.95
 	},
 	"Aftermath": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		description: `After using an Ultimate Skill, restore {#} Energy.`,
 		id: 107,
 		maxPoints: 3,
@@ -1168,7 +1168,7 @@ The shadow deals {#}% of your damage.`,
 		y: 187.49
 	},
 	"Death Trap": {
-		connections: [ "Prime Death Trap", "Ultimate" ],
+		connections: [ "Prime Death Trap", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Place a trap that arms after {#} seconds. It activates when an enemy moves within range, dealing a total of {#}% damage to each enemy in the area.`,
@@ -1198,7 +1198,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		y: 1.185
 	},
 	"Trap Mastery": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		description: `When Poison Trap or Death Trap activates, you gain +{#}% increased Critical Strike Chance against Vulnerable and Crowd Controlled enemies for {#} seconds.`,
 		id: 111,
 		maxPoints: 3,
@@ -1207,7 +1207,7 @@ Place a trap that arms after {#} seconds. It activates when an enemy moves withi
 		y: -182.505
 	},
 	"Rain of Arrows": {
-		connections: [ "Prime Rain of Arrows", "Ultimate" ],
+		connections: [ "Prime Rain of Arrows", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
@@ -1238,7 +1238,7 @@ Arrows rain down over a large area {#} times, each wave dealing {#}% damage.`,
 		y: 646.1
 	},
 	"Adrenaline Rush": {
-		connections: [ "Impetus", "Haste", "Ultimate" ],
+		connections: [ "Impetus", "Haste", "终极技能" ],
 		description: `While moving, you gain x{#}% increased Energy Regeneration.`,
 		id: 115,
 		maxPoints: 3,

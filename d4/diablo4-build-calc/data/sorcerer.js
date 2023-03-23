@@ -13,24 +13,24 @@ sorcererData["Trunk Data"] = {
 		y: 609.355
 	},
 	"防御": {
-		connections: [ "Conjuration" ],
+		connections: [ "召唤魔法" ],
 		requiredPoints: 6,
 		x: 513.726,
 		y: 1514.46
 	},
-	"Conjuration": {
-		connections: [ "Mastery" ],
+	"召唤魔法": {
+		connections: [ "掌控" ],
 		requiredPoints: 11,
 		x: -1199.059,
 		y: 2442.965
 	},
-	"Mastery": {
-		connections: [ "Ultimate" ],
+	"掌控": {
+		connections: [ "终极技能" ],
 		requiredPoints: 16,
 		x: 505.046,
 		y: 3340.265
 	},
-	"Ultimate": {
+	"终极技能": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: -1203.599,
@@ -721,9 +721,9 @@ Evade is replaced with a short range Teleport on a {#} second Cooldown.`,
 	},
 };
 
-sorcererData["Conjuration"] = {
+sorcererData["召唤魔法"] = {
 	"Hydra": {
-		connections: [ "Conjuration", "Enhanced Hydra" ],
+		connections: [ "召唤魔法", "Enhanced Hydra" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Summon a {#}-headed hydra for {#} seconds. Each head spits fire at enemies, dealing {#}% damage.
@@ -770,7 +770,7 @@ After spending {#} Mana, a {#}-headed Hydra spawns for {#} seconds.`,
 		y: -594.569
 	},
 	"Ice Blades": {
-		connections: [ "Conjuration", "Enhanced Ice Blades" ],
+		connections: [ "召唤魔法", "Enhanced Ice Blades" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Conjure a pair of ice blades for {#} seconds that rapidly slash enemies for {#}% damage and have a {#}% chance to make them Vulnerable for {#} seconds.
@@ -815,7 +815,7 @@ For every {#} seconds in Cooldowns you spend, you spawn an Ice Blades on a rando
 		y: -89.709
 	},
 	"Lightning Spear": {
-		connections: [ "Conjuration", "Enhanced Lightning Spear" ],
+		connections: [ "召唤魔法", "Enhanced Lightning Spear" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Conjure a spear of lightning that seeks out enemies for {#} seconds, dealing {#}% damage per hit.
@@ -860,7 +860,7 @@ Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.`,
 		y: 495.95
 	},
 	"Conjuration Mastery": {
-		connections: [ "Conjuration" ],
+		connections: [ "召唤魔法" ],
 		description: `You deal x{#}% increased damage for each active Conjuration.`,
 		id: 73,
 		maxPoints: 3,
@@ -869,7 +869,7 @@ Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.`,
 		y: 301.34
 	},
 	"Precision Magic": {
-		connections: [ "Conjuration" ],
+		connections: [ "召唤魔法" ],
 		description: `Your Lucky Hit Chance is increased by +{#}%.`,
 		id: 74,
 		maxPoints: 3,
@@ -878,7 +878,7 @@ Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.`,
 		y: -240.001
 	},
 	"Align the Elements": {
-		connections: [ "Mana Shield", "Conjuration", "Protection" ],
+		connections: [ "Mana Shield", "召唤魔法", "Protection" ],
 		description: `You gain {#}% Damage Reduction against Elites for each second you haven't taken damage from one, up to {#}%.`,
 		id: 75,
 		maxPoints: 3,
@@ -906,9 +906,9 @@ Absorbing Crackling Energy has a {#}% chance to conjure a Lightning Spear.`,
 	},
 };
 
-sorcererData["Mastery"] = {
+sorcererData["掌控"] = {
 	"Meteor": {
-		connections: [ "Mastery", "Enhanced Meteor" ],
+		connections: [ "掌控", "Enhanced Meteor" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Summon a meteor that strikes the target location, dealing {#}% damage and Burning the ground for {#}% damage over {#} seconds.
@@ -953,7 +953,7 @@ Lucky Hit: {#}% chance for a Meteor to fall on enemies.`,
 		y: -462.803
 	},
 	"Blizzard": {
-		connections: [ "Mastery", "Enhanced Blizzard" ],
+		connections: [ "掌控", "Enhanced Blizzard" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Summon a frigid blizzard that deals {#}% damage and continually Chills enemies for {#}% over {#} seconds.
@@ -998,7 +998,7 @@ Every {#} seconds, a Blizzard forms over you and follows you for {#} seconds.`,
 		y: -585
 	},
 	"Ball Lightning": {
-		connections: [ "Mastery", "Enhanced Ball Lightning" ],
+		connections: [ "掌控", "Enhanced Ball Lightning" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Discharge a ball of lightning that slowly moves forward, continually zapping enemies for {#}% damage.
@@ -1043,7 +1043,7 @@ Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.
 		y: 586.43
 	},
 	"Inner Flames": {
-		connections: [ "Mastery", "Crippling Flames", "Devouring Blaze" ],
+		connections: [ "掌控", "Crippling Flames", "Devouring Blaze" ],
 		description: `Your Pyromancy Skills deal x{#}% increased damage while you are Healthy.`,
 		id: 90,
 		maxPoints: 3,
@@ -1070,7 +1070,7 @@ Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.
 		y: -75.715
 	},
 	"Static Discharge": {
-		connections: [ "Invigorating Conduit", "Shocking Impact", "Mastery" ],
+		connections: [ "Invigorating Conduit", "Shocking Impact", "掌控" ],
 		description: `Lucky Hit: Critical Strikes with Shock Skills have up to a {#}% chance to form a Crackling Energy.`,
 		id: 94,
 		maxPoints: 3,
@@ -1097,7 +1097,7 @@ Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.
 		y: 509
 	},
 	"Icy Veil": {
-		connections: [ "Mastery", "Snap Freeze", "Cold Front" ],
+		connections: [ "掌控", "Snap Freeze", "Cold Front" ],
 		description: `Your Barriers have a +{#}% increased duration.`,
 		id: 96,
 		maxPoints: 3,
@@ -1124,7 +1124,7 @@ Lucky Hit: Critical Strikes have a {#}% chance to spawn a static Ball Lightning.
 		y: -506.953
 	},
 	"Firewall": {
-		connections: [ "Mastery", "Enhanced Firewall" ],
+		connections: [ "掌控", "Enhanced Firewall" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Create a wall of flames that Burns enemies for {#}% damage over {#} seconds.
@@ -1170,9 +1170,9 @@ Each time an enemy takes Burning damage, there's a {#}% chance to spawn 2 Firewa
 	},
 };
 
-sorcererData["Ultimate"] = {
+sorcererData["终极技能"] = {
 	"Inferno": {
-		connections: [ "Ultimate", "Prime Inferno" ],
+		connections: [ "终极技能", "Prime Inferno" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Summon a fiery serpent that continually constricts the target area, Burning enemies for {#}% damage over {#} seconds.`,
@@ -1201,7 +1201,7 @@ Summon a fiery serpent that continually constricts the target area, Burning enem
 		y: -183.18
 	},
 	"Unstable Currents": {
-		connections: [ "Prime Unstable Currents", "Ultimate" ],
+		connections: [ "Prime Unstable Currents", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Lightning surges within you for {#} seconds. Whenever you cast a Shock Skill, a random Core, Conjuration, or Mastery Shock Skill is also cast.`,
 		id: 106,
@@ -1230,7 +1230,7 @@ Lightning surges within you for {#} seconds. Whenever you cast a Shock Skill, a 
 		y: 596.365
 	},
 	"Deep Freeze": {
-		connections: [ "Prime Deep Freeze", "Ultimate" ],
+		connections: [ "Prime Deep Freeze", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Encase yourself in ice, becoming Immune for {#} seconds, continually dealing {#}% damage, and Chilling enemies for {#}%. When Deep Freeze expires, it deals an additional {#}% damage.
@@ -1263,7 +1263,7 @@ Casting Deep Freeze again ends the effect early.`,
 		y: -581.04
 	},
 	"Permafrost": {
-		connections: [ "Hoarfrost", "Ultimate", "Icy Touch" ],
+		connections: [ "Hoarfrost", "终极技能", "Icy Touch" ],
 		description: `Frost Skills deal x{#}% increased damage to Elites.`,
 		id: 113,
 		maxPoints: 3,
@@ -1299,7 +1299,7 @@ Casting Deep Freeze again ends the effect early.`,
 		y: -421.81
 	},
 	"Coursing Currents": {
-		connections: [ "Electrocution", "Conduction", "Ultimate" ],
+		connections: [ "Electrocution", "Conduction", "终极技能" ],
 		description: `Hitting enemies with Shock Skills increases your Critical Strike Chance by +{#}%. Resets upon getting a Critical Strike.`,
 		id: 116,
 		maxPoints: 3,
@@ -1335,7 +1335,7 @@ Casting Deep Freeze again ends the effect early.`,
 		y: 436.8
 	},
 	"Fiery Surge": {
-		connections: [ "Endless Pyre", "Soulfire", "Ultimate" ],
+		connections: [ "Endless Pyre", "Soulfire", "终极技能" ],
 		description: `Killing a Burning enemy increases your Mana Regeneration by +{#}% for {#} seconds.`,
 		id: 123,
 		maxPoints: 3,

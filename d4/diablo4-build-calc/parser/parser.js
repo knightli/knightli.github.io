@@ -16,7 +16,7 @@ const scaleRatio = 0.5;
 
 const rootNodeNames = {
 	"Barbarian": {
-		0: "Ultimate",
+		0: "终极技能",
 		1: "Weapon Mastery",
 		2: "Brawling",
 		3: "防御",
@@ -30,7 +30,7 @@ const rootNodeNames = {
 		2: "防御",
 		3: "Companion",
 		4: "Wrath",
-		5: "Ultimate",
+		5: "终极技能",
 		6: "Capstone"
 	},
 	"Necromancer": {
@@ -39,7 +39,7 @@ const rootNodeNames = {
 		2: "核心",
 		3: "Corruption",
 		4: "Summoning",
-		5: "Ultimate",
+		5: "终极技能",
 		6: "Macabre"
 	},
 	"Rogue": {
@@ -48,13 +48,13 @@ const rootNodeNames = {
 		2: "Agility",
 		3: "核心",
 		4: "基本",
-		5: "Ultimate",
+		5: "终极技能",
 		6: "Subterfuge"
 	},
 	"Sorcerer": {
-		0: "Conjuration",
-		1: "Ultimate",
-		2: "Mastery",
+		0: "召唤魔法",
+		1: "终极技能",
+		2: "掌控",
 		3: "基本",
 		4: "Capstone",
 		5: "防御",
@@ -69,7 +69,7 @@ const rootNodeNamesSorted = {
 		2: "防御",
 		3: "Brawling",
 		4: "Weapon Mastery",
-		5: "Ultimate",
+		5: "终极技能",
 		6: "Capstone"
 	},
 	"Druid": {
@@ -78,7 +78,7 @@ const rootNodeNamesSorted = {
 		2: "防御",
 		3: "Companion",
 		4: "Wrath",
-		5: "Ultimate",
+		5: "终极技能",
 		6: "Capstone"
 	},
 	"Necromancer": {
@@ -87,7 +87,7 @@ const rootNodeNamesSorted = {
 		2: "Macabre",
 		3: "Corruption",
 		4: "Summoning",
-		5: "Ultimate",
+		5: "终极技能",
 		6: "Capstone",
 	},
 	"Rogue": {
@@ -96,16 +96,16 @@ const rootNodeNamesSorted = {
 		2: "Agility",
 		3: "Subterfuge",
 		4: "Imbuements",
-		5: "Ultimate",
+		5: "终极技能",
 		6: "Capstone",
 	},
 	"Sorcerer": {
 		0: "基本",
 		1: "核心",
 		2: "防御",
-		3: "Conjuration",
-		4: "Mastery",
-		5: "Ultimate",
+		3: "召唤魔法",
+		4: "掌控",
+		5: "终极技能",
 		6: "Capstone",
 	},
 }
@@ -268,7 +268,7 @@ function fixJSON(classData, curNode, rootNodeName) {
 		}
 		if (skillName != undefined) {
 			// ultimate skills don't have ranks
-			if (rootNodeName == "Ultimate" && /cooldown:/i.test(nodeData["power"]["skill_desc"]) && nodeData["reward"]["max_talent_ranks"] == 5) {
+			if (rootNodeName == "终极技能" && /cooldown:/i.test(nodeData["power"]["skill_desc"]) && nodeData["reward"]["max_talent_ranks"] == 5) {
 				$("#debugOutput").append("\nFixing nodeID " + nodeData["id"] + "; SkillName: `" + skillName + "`; maxTalentRanks: " + nodeData["reward"]["max_talent_ranks"] + " -> 1.");
 				nodeData["reward"]["max_talent_ranks"] = 1;
 			} else {

@@ -25,12 +25,12 @@ necromancerData["Trunk Data"] = {
 		y: 2438.479
 	},
 	"Summoning": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		requiredPoints: 16,
 		x: 507.125,
 		y: 3343.385
 	},
-	"Ultimate": {
+	"终极技能": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: -1201.801,
@@ -943,9 +943,9 @@ Consume all of your Essence to conjure a spirit of bone that seeks enemies. Upon
 	},
 };
 
-necromancerData["Ultimate"] = {
+necromancerData["终极技能"] = {
 	"Bonded in Essence": {
-		connections: [ "Death's Defense", "Ultimate" ],
+		connections: [ "Death's Defense", "终极技能" ],
 		description: `Every {#} seconds, your Skeletal Priest's Healing will Heal your skeletons for {#}% of their Maximum Life.`,
 		id: 89,
 		maxPoints: 3,
@@ -963,7 +963,7 @@ necromancerData["Ultimate"] = {
 		y: 328.78
 	},
 	"Inspiring Leader": {
-		connections: [ "Hellbent Commander", "Ultimate", "Death's Defense" ],
+		connections: [ "Hellbent Commander", "终极技能", "Death's Defense" ],
 		description: `After you have been Healthy for at least {#} seconds, you and your Minions gain +{#}% Attack Speed.`,
 		id: 129,
 		maxPoints: 3,
@@ -981,7 +981,7 @@ necromancerData["Ultimate"] = {
 		y: 208.305
 	},
 	"Army of the Dead": {
-		connections: [ "Prime Army of the Dead", "Ultimate" ],
+		connections: [ "Prime Army of the Dead", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Call forth the deep buried dead. Volatile Skeletons emerge over the next {#} seconds that explode when around enemies, dealing {#}% damage.`,
@@ -1011,7 +1011,7 @@ Call forth the deep buried dead. Volatile Skeletons emerge over the next {#} sec
 		y: -246.42
 	},
 	"Blood Wave": {
-		connections: [ "Prime Blood Wave", "Ultimate" ],
+		connections: [ "Prime Blood Wave", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Conjure a tidal wave of blood that deals {#}% damage and Knocks Back enemies.`,
@@ -1041,7 +1041,7 @@ Conjure a tidal wave of blood that deals {#}% damage and Knocks Back enemies.`,
 		y: -506.98
 	},
 	"Stand Alone": {
-		connections: [ "Memento Mori", "Ultimate" ],
+		connections: [ "Memento Mori", "终极技能" ],
 		description: `Increases Damage Reduction by {#}%, reduced by {#}% for each active Minion.`,
 		id: 99,
 		maxPoints: 3,
@@ -1059,7 +1059,7 @@ Conjure a tidal wave of blood that deals {#}% damage and Knocks Back enemies.`,
 		y: 1.63
 	},
 	"Bone Storm": {
-		connections: [ "Prime Bone Storm", "Ultimate" ],
+		connections: [ "Prime Bone Storm", "终极技能" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 A swirling storm of bones appears around you and your Golem, dealing {#}% to surrounding enemies over {#} seconds.`,
@@ -1090,7 +1090,7 @@ A swirling storm of bones appears around you and your Golem, dealing {#}% to sur
 		y: 507.51
 	},
 	"Golem Mastery": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		description: `Increase the damage and Life of your Golem by x{#}%.`,
 		id: 104,
 		maxPoints: 3,

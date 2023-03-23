@@ -25,12 +25,12 @@ barbarianData["Trunk Data"] = {
 		y: 2431.825
 	},
 	"Weapon Mastery": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		requiredPoints: 16,
 		x: 508.717,
 		y: 3341.88
 	},
-	"Ultimate": {
+	"终极技能": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: -1201.379,
@@ -1090,9 +1090,9 @@ Skewer enemies in front of you, dealing {#}% damage, then rip your weapon out, d
 	},
 };
 
-barbarianData["Ultimate"] = {
+barbarianData["终极技能"] = {
 	"Call of the Ancients": {
-		connections: [ "Ultimate", "Prime Call of the Ancients" ],
+		connections: [ "终极技能", "Prime Call of the Ancients" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Call upon 3 Ancients to aid you in battle for {#} seconds.
@@ -1129,7 +1129,7 @@ Madawc: {#}% chance to Stun enemies for {#} seconds when using his Upheaval.`,
 		y: -644.245
 	},
 	"Iron Maelstrom": {
-		connections: [ "Ultimate", "Prime Iron Maelstrom" ],
+		connections: [ "终极技能", "Prime Iron Maelstrom" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Activate three times to attach chains to each of your weapons and perform an attack:
@@ -1163,7 +1163,7 @@ Activate three times to attach chains to each of your weapons and perform an att
 		y: -2.685
 	},
 	"Duelist": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		description: `Attack Speed is increased by +{#}% while using One-Handed weapons.`,
 		id: 109,
 		maxPoints: 3,
@@ -1172,7 +1172,7 @@ Activate three times to attach chains to each of your weapons and perform an att
 		y: -207.635
 	},
 	"Wrath of the Berserker": {
-		connections: [ "Ultimate", "Prime Wrath of the Berserker" ],
+		connections: [ "终极技能", "Prime Wrath of the Berserker" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, dealing direct damage with Basic Skills grants Berserking for {#} seconds.`,
@@ -1203,7 +1203,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		y: 647.065
 	},
 	"Tempered Fury": {
-		connections: [ "Ultimate", "Invigorating Fury", "Furious Impulse" ],
+		connections: [ "终极技能", "Invigorating Fury", "Furious Impulse" ],
 		description: `Increase your Maximum Fury by {#}.`,
 		id: 113,
 		maxPoints: 3,
@@ -1230,7 +1230,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		y: 233.415
 	},
 	"Wallop": {
-		connections: [ "Ultimate", "Brute Force", "Concussion" ],
+		connections: [ "终极技能", "Brute Force", "Concussion" ],
 		description: `Your Skills using Bludgeoning weapons deal x{#}% increased damage if the enemy is Stunned or Vulnerable.`,
 		id: 116,
 		maxPoints: 3,
@@ -1248,7 +1248,7 @@ Gain Berserking and Unstoppable for {#} seconds.  For the next {#} seconds, deal
 		y: -7.82
 	},
 	"Heavy Handed": {
-		connections: [ "Ultimate", "Brute Force" ],
+		connections: [ "终极技能", "Brute Force" ],
 		description: `While using Two-Handed weapons you deal x{#}% increased Critical Strike Damage.`,
 		id: 118,
 		maxPoints: 3,

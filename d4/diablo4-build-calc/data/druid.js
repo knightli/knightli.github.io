@@ -25,12 +25,12 @@ druidData["Trunk Data"] = {
 		y: 2443.636
 	},
 	"Wrath": {
-		connections: [ "Ultimate" ],
+		connections: [ "终极技能" ],
 		requiredPoints: 16,
 		x: 505.396,
 		y: 3340.8
 	},
-	"Ultimate": {
+	"终极技能": {
 		connections: [ "Capstone" ],
 		requiredPoints: 23,
 		x: -1204.559,
@@ -1158,9 +1158,9 @@ Infected enemies spread Rabies to other surrounding targets.`,
 	},
 };
 
-druidData["Ultimate"] = {
+druidData["终极技能"] = {
 	"Grizzly Rage": {
-		connections: [ "Ultimate", "Prime Grizzly Rage" ],
+		connections: [ "终极技能", "Prime Grizzly Rage" ],
 		description: `Cooldown: {#} seconds
 Shapeshift into  Dire Werebear for {#} seconds gaining x{#}% bonus damage and {#}% Damage Reduction. Damage bonus is increased by {#}% each second while in this form.
 
@@ -1191,7 +1191,7 @@ Kills extend the duration by {#} second up to {#} additional seconds.`,
 		y: 641.92
 	},
 	"Petrify": {
-		connections: [ "Ultimate", "Prime Petrify" ],
+		connections: [ "终极技能", "Prime Petrify" ],
 		description: `Cooldown: {#} seconds
 Encase all Nearby enemies in stone, Stunning them for {#} seconds. You deal x{#}% increased Critical Strike Damage to enemies affected by Petrify.
 
@@ -1223,7 +1223,7 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 		y: -605.175
 	},
 	"Defensive Posture": {
-		connections: [ "Ultimate", "Thick Hide", "Nature's Resolve" ],
+		connections: [ "终极技能", "Thick Hide", "Nature's Resolve" ],
 		description: `Increases the amount of Fortify you gain from all sources by +{#}%.`,
 		id: 113,
 		maxPoints: 3,
@@ -1259,7 +1259,7 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 		y: 91.16
 	},
 	"Quickshift": {
-		connections: [ "Ultimate", "Natural Fortitude", "Heightened Senses" ],
+		connections: [ "终极技能", "Natural Fortitude", "Heightened Senses" ],
 		description: `When a Shapeshifting Skill transforms you into a different form, it deals x{#}% increased damage.`,
 		id: 117,
 		maxPoints: 3,
@@ -1286,7 +1286,7 @@ Against Bosses, the Critical Strike Damage bonus is increased to x{#}% and its d
 		y: 423.295
 	},
 	"Lacerate": {
-		connections: [ "Ultimate", "Prime Lacerate" ],
+		connections: [ "终极技能", "Prime Lacerate" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf, become Immune and quickly dash {#} times between enemies in the area dealing up to {#}% damage.`,
@@ -1317,7 +1317,7 @@ Shapeshift into a Werewolf, become Immune and quickly dash {#} times between ene
 		y: 290.655
 	},
 	"Cataclysm": {
-		connections: [ "Ultimate", "Prime Cataclysm" ],
+		connections: [ "终极技能", "Prime Cataclysm" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and lightning strikes wildly dealing {#}% damage.`,
@@ -1347,7 +1347,7 @@ A massive storm follows you for {#} seconds. Tornadoes Knock Back enemies, and l
 		y: -253.34
 	},
 	"Defiance": {
-		connections: [ "Ultimate", "Circle of Life", "Natural Disaster" ],
+		connections: [ "终极技能", "Circle of Life", "Natural Disaster" ],
 		description: `Nature Magic Skills deal x{#}% increased damage to Elites.`,
 		id: 126,
 		maxPoints: 3,

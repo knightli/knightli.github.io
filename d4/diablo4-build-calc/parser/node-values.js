@@ -423,7 +423,7 @@ let nodeValues = {
 				"{3/6/9}"
 			]
 		},
-		"Ultimate": {
+		"终极技能": {
 			"Call of the Ancients": [
 				"50",
 				"30",
@@ -968,7 +968,7 @@ let nodeValues = {
 				""
 			]
 		},
-		"Ultimate": {
+		"终极技能": {
 			"Grizzly Rage": [
 				"60.0",
 				"10",
@@ -1515,7 +1515,7 @@ let nodeValues = {
 				""
 			]
 		},
-		"Ultimate": {
+		"终极技能": {
 			"Bonded in Essence": [
 				"{15/30/45}",
 				""
@@ -2041,7 +2041,7 @@ let nodeValues = {
 				"2"
 			]
 		},
-		"Ultimate": {
+		"终极技能": {
 			"Innervation": [
 				"{10/20/30}",
 				"8"
@@ -2427,7 +2427,7 @@ let nodeValues = {
 				"17.0"
 			]
 		},
-		"Conjuration": {
+		"召唤魔法": {
 			"Hydra": [
 				"20",
 				"77",
@@ -2512,7 +2512,7 @@ let nodeValues = {
 				"100"
 			]
 		},
-		"Mastery": {
+		"掌控": {
 			"Meteor": [
 				"40",
 				"40",
@@ -2622,7 +2622,7 @@ let nodeValues = {
 				"3"
 			]
 		},
-		"Ultimate": {
+		"终极技能": {
 			"Inferno": [
 				"45",
 				"38",
