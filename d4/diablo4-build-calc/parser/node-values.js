@@ -76,7 +76,7 @@ let nodeValues = {
 				"4"
 			]
 		},
-		"Core": {
+		"核心": {
 			"Hammer of the Ancients": [
 				"35",
 				"40",
@@ -168,7 +168,7 @@ let nodeValues = {
 				"{5/10/15}"
 			]
 		},
-		"Defensive": {
+		"防御": {
 			"Challenging Shout": [
 				"25",
 				"{40/45/50/55/60}",
@@ -710,7 +710,7 @@ let nodeValues = {
 				"3"
 			]
 		},
-		"Defensive": {
+		"防御": {
 			"Earthen Bulwark": [
 				"16.0",
 				"50",
@@ -1221,7 +1221,7 @@ let nodeValues = {
 				""
 			]
 		},
-		"Core": {
+		"核心": {
 			"Blight": [
 				"25",
 				"40",
@@ -1681,7 +1681,7 @@ let nodeValues = {
 				"1.5"
 			]
 		},
-		"Core": {
+		"核心": {
 			"Twisting Blades": [
 				"30",
 				"35",
@@ -2210,7 +2210,7 @@ let nodeValues = {
 				"8"
 			]
 		},
-		"Core": {
+		"核心": {
 			"Charged Bolts": [
 				"40",
 				"25",
@@ -2339,7 +2339,7 @@ let nodeValues = {
 				"100"
 			]
 		},
-		"Defensive": {
+		"防御": {
 			"Flame Shield": [
 				"20",
 				"50",

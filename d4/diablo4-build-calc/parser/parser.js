@@ -19,15 +19,15 @@ const rootNodeNames = {
 		0: "Ultimate",
 		1: "Weapon Mastery",
 		2: "Brawling",
-		3: "Defensive",
-		4: "Core",
+		3: "防御",
+		4: "核心",
 		5: "基本",
 		6: "Capstone"
 	},
 	"Druid": {
 		0: "基本",
 		1: "Spirit",
-		2: "Defensive",
+		2: "防御",
 		3: "Companion",
 		4: "Wrath",
 		5: "Ultimate",
@@ -36,7 +36,7 @@ const rootNodeNames = {
 	"Necromancer": {
 		0: "基本",
 		1: "Capstone",
-		2: "Core",
+		2: "核心",
 		3: "Corruption",
 		4: "Summoning",
 		5: "Ultimate",
@@ -46,7 +46,7 @@ const rootNodeNames = {
 		0: "Capstone",
 		1: "Imbuements",
 		2: "Agility",
-		3: "Core",
+		3: "核心",
 		4: "基本",
 		5: "Ultimate",
 		6: "Subterfuge"
@@ -57,16 +57,16 @@ const rootNodeNames = {
 		2: "Mastery",
 		3: "基本",
 		4: "Capstone",
-		5: "Defensive",
-		6: "Core"
+		5: "防御",
+		6: "核心"
 	},
 }
 
 const rootNodeNamesSorted = {
 	"Barbarian": {
 		0: "基本",
-		1: "Core",
-		2: "Defensive",
+		1: "核心",
+		2: "防御",
 		3: "Brawling",
 		4: "Weapon Mastery",
 		5: "Ultimate",
@@ -75,7 +75,7 @@ const rootNodeNamesSorted = {
 	"Druid": {
 		0: "基本",
 		1: "Spirit",
-		2: "Defensive",
+		2: "防御",
 		3: "Companion",
 		4: "Wrath",
 		5: "Ultimate",
@@ -83,7 +83,7 @@ const rootNodeNamesSorted = {
 	},
 	"Necromancer": {
 		0: "基本",
-		1: "Core",
+		1: "核心",
 		2: "Macabre",
 		3: "Corruption",
 		4: "Summoning",
@@ -92,7 +92,7 @@ const rootNodeNamesSorted = {
 	},
 	"Rogue": {
 		0: "基本",
-		1: "Core",
+		1: "核心",
 		2: "Agility",
 		3: "Subterfuge",
 		4: "Imbuements",
@@ -101,8 +101,8 @@ const rootNodeNamesSorted = {
 	},
 	"Sorcerer": {
 		0: "基本",
-		1: "Core",
-		2: "Defensive",
+		1: "核心",
+		2: "防御",
 		3: "Conjuration",
 		4: "Mastery",
 		5: "Ultimate",

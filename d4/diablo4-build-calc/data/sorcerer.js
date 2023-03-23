@@ -2,17 +2,17 @@ let sorcererData = {};
 
 sorcererData["Trunk Data"] = {
 	"基本": {
-		connections: [ "Core" ],
+		connections: [ "核心" ],
 		x: 0,
 		y: 0
 	},
-	"Core": {
-		connections: [ "Defensive" ],
+	"核心": {
+		connections: [ "防御" ],
 		requiredPoints: 2,
 		x: -1195.229,
 		y: 609.355
 	},
-	"Defensive": {
+	"防御": {
 		connections: [ "Conjuration" ],
 		requiredPoints: 6,
 		x: 513.726,
@@ -220,9 +220,9 @@ Direct damage from Skills applies up to an additional {#}% Burning damage over {
 	},
 };
 
-sorcererData["Core"] = {
+sorcererData["核心"] = {
 	"Charged Bolts": {
-		connections: [ "Core", "Enhanced Charged Bolts" ],
+		connections: [ "核心", "Enhanced Charged Bolts" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Release {#} bolts of lightning that course along the ground in an erratic pattern, dealing {#}% damage each.
@@ -267,7 +267,7 @@ When you Stun an enemy, there's a {#}% chance to release {#} Charged Bolts from 
 		y: 599.82
 	},
 	"Frozen Orb": {
-		connections: [ "Core", "Enhanced Frozen Orb" ],
+		connections: [ "核心", "Enhanced Frozen Orb" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash an orb that Chills for {#}% and expels piercing shards, dealing a total of {#}% damage. Upon expiration, Frozen Orb explodes, dealing {#}% damage and Chilling enemies for {#}%.
@@ -312,7 +312,7 @@ Whenever you cast a Non-Basic Skill, you have a {#}% chance to launch a Frozen O
 		y: -284.32
 	},
 	"Incinerate": {
-		connections: [ "Core", "Enhanced Incinerate" ],
+		connections: [ "核心", "Enhanced Incinerate" ],
 		description: `Mana Cost: {#} per second
 Lucky Hit Chance: {#}%
 Channel a beam of fire, Burning enemies for {#}% damage per second. Damage per second increases over {#} seconds, up to {#}.
@@ -357,7 +357,7 @@ Every {#} seconds, a serpent spawns and Incinerates enemies for {#} seconds.`,
 		y: -607.315
 	},
 	"Fireball": {
-		connections: [ "Core", "Enhanced Fireball" ],
+		connections: [ "核心", "Enhanced Fireball" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Hurl an exploding ball of fire, dealing {#}% damage to surrounding enemies.
@@ -402,7 +402,7 @@ When you kill an enemy, they explode in a Fireball for {#}% of its damage.`,
 		y: -541.025
 	},
 	"Chain Lightning": {
-		connections: [ "Core", "Enhanced Chain Lightning" ],
+		connections: [ "核心", "Enhanced Chain Lightning" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash a stream of lightning that deals {#}% damage and chains between Nearby enemies and you up to {#} times, prioritizing enemies.
@@ -447,7 +447,7 @@ Chain Lightning forms automatically after spending {#} Mana.`,
 		y: 634.625
 	},
 	"Ice Shards": {
-		connections: [ "Core", "Enhanced Ice Shards" ],
+		connections: [ "核心", "Enhanced Ice Shards" ],
 		description: `Mana Cost: {#}
 Lucky Hit Chance: {#}%
 Launch {#} shards that deal {#}% damage each. Deals x{#}% increased damage to Frozen enemies.
@@ -490,7 +490,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		y: 260.63
 	},
 	"Devastation": {
-		connections: [ "Core", "Elemental Dominance" ],
+		connections: [ "核心", "Elemental Dominance" ],
 		description: `Your Maximum Mana is increased by {#}.`,
 		id: 40,
 		maxPoints: 3,
@@ -508,7 +508,7 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 		y: 406.375
 	},
 	"Potent Warding": {
-		connections: [ "Core" ],
+		connections: [ "核心" ],
 		description: `After casting a Non-Basic Skill, you gain {#}% Resistance to all elements and {#}% additional Resistance to that Skill's element for {#} seconds.`,
 		id: 42,
 		maxPoints: 3,
@@ -518,9 +518,9 @@ Ice Shards automatically conjure and fly towards Frozen enemies.`,
 	},
 };
 
-sorcererData["Defensive"] = {
+sorcererData["防御"] = {
 	"Flame Shield": {
-		connections: [ "Defensive", "Enhanced Flame Shield" ],
+		connections: [ "防御", "Enhanced Flame Shield" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Engulf yourself in flames for {#} seconds, Burning surrounding enemies for {#}% damage per second.
@@ -567,7 +567,7 @@ Flame Shield automatically activates when you take fatal damage. Can only happen
 		y: -608.105
 	},
 	"Frost Nova": {
-		connections: [ "Defensive", "Enhanced Frost Nova" ],
+		connections: [ "防御", "Enhanced Frost Nova" ],
 		description: `Cooldown: {#} seconds
 Charges: {#}
 Charge Cooldown: {#} seconds
@@ -613,7 +613,7 @@ Lucky Hit: Your Conjuration Skills have a {#}% chance to unleash a Frost Nova wh
 		y: 624.487
 	},
 	"Ice Armor": {
-		connections: [ "Defensive", "Enhanced Ice Armor" ],
+		connections: [ "防御", "Enhanced Ice Armor" ],
 		description: `Cooldown: {#} seconds
 A Barrier of ice forms around you for {#} seconds, absorbing {#}% of your Base Life ({#}) in damage. While Ice Armor is active, {#}% of your damage dealt is added to its Barrier.
 
@@ -657,7 +657,7 @@ Upon getting hit, you have a {#}% chance to apply Ice Armor.`,
 		y: 318.55
 	},
 	"Teleport": {
-		connections: [ "Defensive", "Enhanced Teleport" ],
+		connections: [ "防御", "Enhanced Teleport" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Transform into lightning, becoming Unstoppable and surging to the target location, dealing {#}% damage around you upon arrival.
@@ -702,7 +702,7 @@ Evade is replaced with a short range Teleport on a {#} second Cooldown.`,
 		y: -351.155
 	},
 	"Elemental Attunement": {
-		connections: [ "Defensive" ],
+		connections: [ "防御" ],
 		description: `Lucky Hit: Critical Strikes have a {#}% chance to reset the Cooldown of one of your Defensive Skills. Can only happen once every {#} seconds.`,
 		id: 59,
 		maxPoints: 3,
@@ -711,7 +711,7 @@ Evade is replaced with a short range Teleport on a {#} second Cooldown.`,
 		y: 1.335
 	},
 	"Glass Cannon": {
-		connections: [ "Defensive" ],
+		connections: [ "防御" ],
 		description: `You deal x{#}% increased damage, but take x{#}% more damage.`,
 		id: 60,
 		maxPoints: 3,

@@ -7,12 +7,12 @@ druidData["Trunk Data"] = {
 		y: 0
 	},
 	"Spirit": {
-		connections: [ "Defensive" ],
+		connections: [ "防御" ],
 		requiredPoints: 2,
 		x: -1196.614,
 		y: 616.14
 	},
-	"Defensive": {
+	"防御": {
 		connections: [ "Companion" ],
 		requiredPoints: 6,
 		x: 506.001,
@@ -524,9 +524,9 @@ This bonus persists for {#} seconds after leaving Werewolf form.`,
 	},
 };
 
-druidData["Defensive"] = {
+druidData["防御"] = {
 	"Earthen Bulwark": {
-		connections: [ "Defensive", "Enhanced Earthen Bulwark" ],
+		connections: [ "防御", "Enhanced Earthen Bulwark" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your Base Life ({#}) in damage.`,
@@ -566,7 +566,7 @@ Rocks surround you for {#} seconds, granting a Barrier that absorbs {#}% of your
 		y: -637.145
 	},
 	"Debilitating Roar": {
-		connections: [ "Defensive", "Enhanced Debilitating Roar" ],
+		connections: [ "防御", "Enhanced Debilitating Roar" ],
 		description: `Cooldown: {#} seconds
 Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' damage dealt by {#}% for {#} seconds.`,
 		id: 47,
@@ -606,7 +606,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 		y: 633.023
 	},
 	"Ancestral Fortitude": {
-		connections: [ "Defensive", "Vigilance" ],
+		connections: [ "防御", "Vigilance" ],
 		description: `Increase your Non-Physical Resistances by {#}%.`,
 		id: 51,
 		maxPoints: 3,
@@ -624,7 +624,7 @@ Shapeshift into a Werebear and bellow a mighty roar, reducing Nearby enemies' da
 		y: 0.39
 	},
 	"Blood Howl": {
-		connections: [ "Defensive", "Enhanced Blood Howl" ],
+		connections: [ "防御", "Enhanced Blood Howl" ],
 		description: `Cooldown: {#} seconds
 Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maximum Life ({#}).`,
 		id: 53,
@@ -664,7 +664,7 @@ Shapeshift into a Werewolf and howl furiously, Healing you for {#}% of your Maxi
 		y: 280.42
 	},
 	"Cyclone Armor": {
-		connections: [ "Defensive", "Enhanced Cyclone Armor" ],
+		connections: [ "防御", "Enhanced Cyclone Armor" ],
 		description: `Cooldown: {#} seconds
 Lucky Hit Chance: {#}%
 Passive: Powerful winds surround you, granting {#}% Non-Physical Damage Reduction.

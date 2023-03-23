@@ -2,11 +2,11 @@ let necromancerData = {};
 
 necromancerData["Trunk Data"] = {
 	"基本": {
-		connections: [ "Core" ],
+		connections: [ "核心" ],
 		x: 0,
 		y: 0
 	},
-	"Core": {
+	"核心": {
 		connections: [ "Macabre" ],
 		requiredPoints: 2,
 		x: -1193.775,
@@ -216,9 +216,9 @@ Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy i
 	},
 };
 
-necromancerData["Core"] = {
+necromancerData["核心"] = {
 	"Blight": {
-		connections: [ "Enhanced Blight", "Core" ],
+		connections: [ "Enhanced Blight", "核心" ],
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Unleash concentrated blight that deals {#}% damage and leaves behind a defiled area, dealing {#}% damage over {#} seconds.`,
@@ -259,7 +259,7 @@ Unleash concentrated blight that deals {#}% damage and leaves behind a defiled a
 		y: 103.745
 	},
 	"Sever": {
-		connections: [ "Enhanced Sever", "Core" ],
+		connections: [ "Enhanced Sever", "核心" ],
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 A specter of you charges forward and attacks with its scythe for {#}% damage then returns to you and attacks again for {#}% damage.`,
@@ -300,7 +300,7 @@ A specter of you charges forward and attacks with its scythe for {#}% damage the
 		y: 590.745
 	},
 	"Blood Surge": {
-		connections: [ "Enhanced Blood Surge", "Core" ],
+		connections: [ "Enhanced Blood Surge", "核心" ],
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#}% damage. Blood Surge's nova damage is increased by x{#}% per enemy drained, up to x{#}%.`,
@@ -340,7 +340,7 @@ Draw blood from enemies, dealing {#}% damage, and expel a blood nova, dealing {#
 		y: -160.385
 	},
 	"Blood Lance": {
-		connections: [ "Enhanced Blood Lance", "Core" ],
+		connections: [ "Enhanced Blood Lance", "核心" ],
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damage to the enemy and all other lanced enemies.`,
@@ -381,7 +381,7 @@ Throw a blood lance that lingers in an enemy for {#} seconds, dealing {#}% damag
 		y: -520.325
 	},
 	"Bone Spear": {
-		connections: [ "Enhanced Bone Spear", "Core" ],
+		connections: [ "Enhanced Bone Spear", "核心" ],
 		description: `Essence Cost: {#}
 Lucky Hit Chance: {#}%
 Conjure a bone spear from the ground, dealing {#}% damage and piercing through enemies.`,
@@ -422,7 +422,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and piercing through e
 		y: -89.765
 	},
 	"Unliving Energy": {
-		connections: [ "Core", "Imperfectly Balanced" ],
+		connections: [ "核心", "Imperfectly Balanced" ],
 		description: `Your maximum Essence is increased by {#}.`,
 		id: 36,
 		maxPoints: 3,
@@ -440,7 +440,7 @@ Conjure a bone spear from the ground, dealing {#}% damage and piercing through e
 		y: -449.76
 	},
 	"Hewed Flesh": {
-		connections: [ "Core" ],
+		connections: [ "核心" ],
 		description: `Lucky Hit: Your damage has up to a {#}% chance to create a Corpse at the target's location.
 
 This chance is doubled against Bosses.`,
