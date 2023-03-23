@@ -21,11 +21,11 @@ const rootNodeNames = {
 		2: "Brawling",
 		3: "Defensive",
 		4: "Core",
-		5: "Basic",
+		5: "基本",
 		6: "Capstone"
 	},
 	"Druid": {
-		0: "Basic",
+		0: "基本",
 		1: "Spirit",
 		2: "Defensive",
 		3: "Companion",
@@ -34,7 +34,7 @@ const rootNodeNames = {
 		6: "Capstone"
 	},
 	"Necromancer": {
-		0: "Basic",
+		0: "基本",
 		1: "Capstone",
 		2: "Core",
 		3: "Corruption",
@@ -47,7 +47,7 @@ const rootNodeNames = {
 		1: "Imbuements",
 		2: "Agility",
 		3: "Core",
-		4: "Basic",
+		4: "基本",
 		5: "Ultimate",
 		6: "Subterfuge"
 	},
@@ -55,7 +55,7 @@ const rootNodeNames = {
 		0: "Conjuration",
 		1: "Ultimate",
 		2: "Mastery",
-		3: "Basic",
+		3: "基本",
 		4: "Capstone",
 		5: "Defensive",
 		6: "Core"
@@ -64,7 +64,7 @@ const rootNodeNames = {
 
 const rootNodeNamesSorted = {
 	"Barbarian": {
-		0: "Basic",
+		0: "基本",
 		1: "Core",
 		2: "Defensive",
 		3: "Brawling",
@@ -73,7 +73,7 @@ const rootNodeNamesSorted = {
 		6: "Capstone"
 	},
 	"Druid": {
-		0: "Basic",
+		0: "基本",
 		1: "Spirit",
 		2: "Defensive",
 		3: "Companion",
@@ -82,7 +82,7 @@ const rootNodeNamesSorted = {
 		6: "Capstone"
 	},
 	"Necromancer": {
-		0: "Basic",
+		0: "基本",
 		1: "Core",
 		2: "Macabre",
 		3: "Corruption",
@@ -91,7 +91,7 @@ const rootNodeNamesSorted = {
 		6: "Capstone",
 	},
 	"Rogue": {
-		0: "Basic",
+		0: "基本",
 		1: "Core",
 		2: "Agility",
 		3: "Subterfuge",
@@ -100,7 +100,7 @@ const rootNodeNamesSorted = {
 		6: "Capstone",
 	},
 	"Sorcerer": {
-		0: "Basic",
+		0: "基本",
 		1: "Core",
 		2: "Defensive",
 		3: "Conjuration",
@@ -423,7 +423,7 @@ function runParser(downloadMode) {
 			const skillTreeValues = Object.values(classData["Skill Tree"]).filter((el, id) => typeof el === "object");
 
 			const rootNodes = skillTreeValues.filter(curNode => curNode["root_node"]);
-			const originNode = rootNodes.find((curNode, curIndex) => rootNodeNames[className][curIndex] == "Basic");
+			const originNode = rootNodes.find((curNode, curIndex) => rootNodeNames[className][curIndex] == "基本");
 
 			let formattedData = "let " + classObjectName + " = {};\n\n";
 			formattedData += classObjectName + '["Trunk Data"] = {\n';

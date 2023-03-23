@@ -1,7 +1,7 @@
 let necromancerData = {};
 
 necromancerData["Trunk Data"] = {
-	"Basic": {
+	"基本": {
 		connections: [ "Core" ],
 		x: 0,
 		y: 0
@@ -47,9 +47,9 @@ necromancerData["Trunk Data"] = {
 	},
 };
 
-necromancerData["Basic"] = {
+necromancerData["基本"] = {
 	"Decompose": {
-		connections: [ "Enhanced Decompose", "Basic" ],
+		connections: [ "Enhanced Decompose", "基本" ],
 		description: `Generate Essence: {#} per second
 Lucky Hit Chance: {#}%
 Tear the flesh from an enemy, dealing {#}% damage per second and forming a usable Corpse with the flesh every {#} seconds.`,
@@ -89,11 +89,10 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 		x: -371.68,
 		y: -569.72
 	},
-	"Reap": {
-		connections: [ "Enhanced Reap", "Basic" ],
-		description: `Generate Essence: {#} per enemy hit
-Lucky Hit Chance: {#}%
-Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy with Reap increases your Damage Reduction by {#}% for {#} seconds.`,
+	"收割": {
+		connections: [ "Enhanced Reap", "基本" ],
+		description: `生成精魂：{#} 每命中一名敌人: {#}% 点
+		幸运一击几率, 在你面前挥舞一把无形的镰刀，造成 {#}% 点伤害. 使用收割命中敌人会使你的伤害减免效果提高 {#}% ，持续 {#} 秒。`,
 		id: 4,
 		maxPoints: 5,
 		values: [ "4", "17", "12", "15", "2" ],
@@ -101,8 +100,8 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		y: -99.975
 	},
 	"Enhanced Reap": {
-		baseSkill: "Reap",
-		connections: [ "Reap", "Initiate's Reap", "Acolyte's Reap" ],
+		baseSkill: "收割",
+		connections: [ "收割", "Initiate's Reap", "Acolyte's Reap" ],
 		description: `If an enemy hit by Reap dies within {#} seconds, you gain +{#}% Attack Speed for {#} seconds.`,
 		id: 5,
 		maxPoints: 1,
@@ -111,7 +110,7 @@ Sweep an ethereal scythe in front of you, dealing {#}% damage. Hitting an enemy 
 		y: -161.91
 	},
 	"Initiate's Reap": {
-		baseSkill: "Reap",
+		baseSkill: "收割",
 		connections: [ "Enhanced Reap" ],
 		description: `Reap instantly kills targets below {#}% Life.
 
@@ -123,7 +122,7 @@ This does not work on bosses or players.`,
 		y: -287.89
 	},
 	"Acolyte's Reap": {
-		baseSkill: "Reap",
+		baseSkill: "收割",
 		connections: [ "Enhanced Reap" ],
 		description: `Reap forms a Corpse under the first enemy hit. Can only occur every {#} seconds.`,
 		id: 7,
@@ -133,7 +132,7 @@ This does not work on bosses or players.`,
 		y: -107.4
 	},
 	"Hemorrhage": {
-		connections: [ "Enhanced Hemorrhage", "Basic" ],
+		connections: [ "Enhanced Hemorrhage", "基本" ],
 		description: `Generate Essence: {#}
 Lucky Hit Chance: {#}%
 Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to form a Blood Orb.`,
@@ -174,7 +173,7 @@ Burst an enemy's blood, dealing {#}% damage. Hemorrhage has a {#}% chance to for
 		y: -569.91
 	},
 	"Bone Splinters": {
-		connections: [ "Enhanced Bone Splinters", "Basic" ],
+		connections: [ "Enhanced Bone Splinters", "基本" ],
 		description: `Generate Essence: {#}
 Lucky Hit Chance: {#}%
 Fire 3 bone splinters, dealing {#}% damage each. Each subsequent time an enemy is hit by the same cast of Bone Splinters, you gain {#} Essence.`,

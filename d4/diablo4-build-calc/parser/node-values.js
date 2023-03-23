@@ -1,6 +1,6 @@
 let nodeValues = {
 	"Barbarian": {
-		"Basic": {
+		"基本": {
 			"Bash": [
 				"10",
 				"50",
@@ -526,7 +526,7 @@ let nodeValues = {
 		}
 	},
 	"Druid": {
-		"Basic": {
+		"基本": {
 			"Maul": [
 				"11",
 				"33",
@@ -1147,7 +1147,7 @@ let nodeValues = {
 		}
 	},
 	"Necromancer": {
-		"Basic": {
+		"基本": {
 			"Decompose": [
 				"7",
 				"40",
@@ -1594,7 +1594,7 @@ let nodeValues = {
 		}
 	},
 	"Rogue": {
-		"Basic": {
+		"基本": {
 			"Blade Shift": [
 				"1",
 				"35",
@@ -2135,19 +2135,19 @@ let nodeValues = {
 		}
 	},
 	"Sorcerer": {
-		"Basic": {
-			"Frost Bolt": [
+		"基本": {
+			"冰霜彈": [
 				"30",
 				"35",
 				"15"
 			],
-			"Enhanced Frost Bolt": [
+			"强化冰霜彈": [
 				"15"
 			],
-			"Flickering Frost Bolt": [
+			"Flickering 冰霜彈": [
 				"3"
 			],
-			"Glinting Frost Bolt": [
+			"Glinting 冰霜彈": [
 				"4"
 			],
 			"Spark": [
@@ -2196,7 +2196,7 @@ let nodeValues = {
 			"Flickering Fire Bolt": [
 				"2"
 			],
-			"Frost Bolt — Enchantment": [
+			"冰霜彈 — Enchantment": [
 				"30"
 			],
 			"Spark — Enchantment": [

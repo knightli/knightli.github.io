@@ -1,7 +1,7 @@
 let druidData = {};
 
 druidData["Trunk Data"] = {
-	"Basic": {
+	"基本": {
 		connections: [ "Spirit" ],
 		x: 0,
 		y: 0
@@ -47,9 +47,9 @@ druidData["Trunk Data"] = {
 	},
 };
 
-druidData["Basic"] = {
+druidData["基本"] = {
 	"Earth Spike": {
-		connections: [ "Basic", "Enhanced Earth Spike" ],
+		connections: [ "基本", "Enhanced Earth Spike" ],
 		description: `Cooldown: {#} seconds
 Generate Spirit: {#}
 Lucky Hit Chance: {#}%
@@ -90,7 +90,7 @@ Sunder the earth, impaling the first enemy hit for {#}% damage.`,
 		y: -208.475
 	},
 	"Maul": {
-		connections: [ "Basic", "Enhanced Maul" ],
+		connections: [ "基本", "Enhanced Maul" ],
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage.`,
@@ -131,7 +131,7 @@ Shapeshift into a Werebear and maul enemies in front of you, dealing {#}% damage
 		y: 279.665
 	},
 	"Wind Shear": {
-		connections: [ "Basic", "Enhanced Wind Shear" ],
+		connections: [ "基本", "Enhanced Wind Shear" ],
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Conjure a piercing blade of wind, dealing {#}% damage.`,
@@ -172,7 +172,7 @@ Conjure a piercing blade of wind, dealing {#}% damage.`,
 		y: -552.75
 	},
 	"Storm Strike": {
-		connections: [ "Basic", "Enhanced Storm Strike" ],
+		connections: [ "基本", "Enhanced Storm Strike" ],
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Electricity gathers around your weapon, dealing {#}% damage to your target and chaining to up to {#} surrounding enemies, dealing {#}% less damage each time it chains.
@@ -215,7 +215,7 @@ You gain {#}% Damage Reduction for {#} seconds after dealing damage with Storm S
 		y: -381.855
 	},
 	"Claw": {
-		connections: [ "Basic", "Enhanced Claw" ],
+		connections: [ "基本", "Enhanced Claw" ],
 		description: `Generate Spirit: {#}
 Lucky Hit Chance: {#}%
 Shapeshift into a Werewolf and claw at an enemy for {#}% damage.`,

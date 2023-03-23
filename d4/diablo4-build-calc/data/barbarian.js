@@ -1,7 +1,7 @@
 let barbarianData = {};
 
 barbarianData["Trunk Data"] = {
-	"Basic": {
+	"基本": {
 		connections: [ "Core" ],
 		x: 0,
 		y: 0
@@ -43,9 +43,9 @@ barbarianData["Trunk Data"] = {
 	},
 };
 
-barbarianData["Basic"] = {
+barbarianData["基本"] = {
 	"Bash": {
-		connections: [ "Basic", "Enhanced Bash" ],
+		connections: [ "基本", "Enhanced Bash" ],
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} times, your next Bash will Stun for {#} seconds, this increases to {#} seconds if using a Two-Handed weapon.`,
@@ -86,7 +86,7 @@ Bash the enemy with your weapon, dealing {#}% damage. After bashing enemies {#} 
 		y: -548.215
 	},
 	"Lunging Strike": {
-		connections: [ "Basic", "Enhanced Lunging Strike" ],
+		connections: [ "基本", "Enhanced Lunging Strike" ],
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Lunge forward and strike an enemy for {#}% damage.`,
@@ -127,7 +127,7 @@ Lunge forward and strike an enemy for {#}% damage.`,
 		y: -339.18
 	},
 	"Frenzy": {
-		connections: [ "Basic", "Enhanced Frenzy" ],
+		connections: [ "基本", "Enhanced Frenzy" ],
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Unleash a rapid flurry of blows, dealing {#}% damage with each pair of hits.
@@ -170,7 +170,7 @@ If Frenzy hits an enemy, its Attack Speed is increased by +{#}% for {#} seconds,
 		y: -549.04
 	},
 	"Flay": {
-		connections: [ "Basic", "Enhanced Flay" ],
+		connections: [ "基本", "Enhanced Flay" ],
 		description: `Generate Fury: {#}
 Lucky Hit Chance: {#}%
 Flay the enemy, dealing {#}% damage and inflicting {#}% Bleeding damage over {#} seconds.`,

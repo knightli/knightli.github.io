@@ -1,7 +1,7 @@
 let rogueData = {};
 
 rogueData["Trunk Data"] = {
-	"Basic": {
+	"基本": {
 		connections: [ "Core" ],
 		x: 0,
 		y: 0
@@ -43,9 +43,9 @@ rogueData["Trunk Data"] = {
 	},
 };
 
-rogueData["Basic"] = {
+rogueData["基本"] = {
 	"Blade Shift": {
-		connections: [ "Enhanced Blade Shift", "Basic" ],
+		connections: [ "Enhanced Blade Shift", "基本" ],
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Quickly stab your victim for {#}% damage and shift, allowing you to move freely through enemies for {#} seconds.`,
@@ -86,7 +86,7 @@ Quickly stab your victim for {#}% damage and shift, allowing you to move freely 
 		y: -634.25
 	},
 	"Invigorating Strike": {
-		connections: [ "Enhanced Invigorating Strike", "Basic" ],
+		connections: [ "Enhanced Invigorating Strike", "基本" ],
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by x{#}% for {#} seconds.`,
@@ -127,7 +127,7 @@ Melee attack an enemy, dealing {#}% damage and increasing Energy Regeneration by
 		y: -375.21
 	},
 	"Puncture": {
-		connections: [ "Enhanced Puncture", "Basic" ],
+		connections: [ "Enhanced Puncture", "基本" ],
 		description: `Generate Combo Point: 1
 Lucky Hit Chance: {#}%
 Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemies by {#}% for {#} seconds. Critical Strikes will always Slow.`,
@@ -168,7 +168,7 @@ Throw blades a short distance, dealing {#}% damage. Every {#}rd cast Slows enemi
 		y: -483.34
 	},
 	"Heartseeker": {
-		connections: [ "Enhanced Heartseeker", "Basic" ],
+		connections: [ "Enhanced Heartseeker", "基本" ],
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Critical Strike Chance against them by +{#}% for {#} seconds, up to +{#}%.`,
@@ -209,7 +209,7 @@ Fire an arrow that seeks an enemy, dealing {#}% damage and increasing your Criti
 		y: 80.68
 	},
 	"Forceful Arrow": {
-		connections: [ "Enhanced Forceful Arrow", "Basic" ],
+		connections: [ "Enhanced Forceful Arrow", "基本" ],
 		description: `Generate Combo Point: {#}
 Lucky Hit Chance: {#}%
 Fire a powerful arrow at an enemy, dealing {#}% damage. Every 3rd cast makes the enemy Vulnerable for {#} seconds.`,

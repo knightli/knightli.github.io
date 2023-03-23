@@ -1,7 +1,7 @@
 let sorcererData = {};
 
 sorcererData["Trunk Data"] = {
-	"Basic": {
+	"基本": {
 		connections: [ "Core" ],
 		x: 0,
 		y: 0
@@ -43,11 +43,11 @@ sorcererData["Trunk Data"] = {
 	},
 };
 
-sorcererData["Basic"] = {
-	"Frost Bolt": {
-		connections: [ "Basic", "Enhanced Frost Bolt" ],
-		description: `Lucky Hit Chance: {#}%
-Throw a bolt of frost at an enemy, dealing {#}% damage and Chilling them for {#}%.
+sorcererData["基本"] = {
+	"冰霜彈": {
+		connections: [ "基本", "强化冰霜彈" ],
+		description: `幸運觸發機率：{#}%
+		對敵人施放冰霜彈，造成 {#}% 點傷害與 {#}% 冰冷效果。
 
 — Enchantment Effect —
 Direct damage from Skills applies up to {#}% Chill.`,
@@ -58,30 +58,30 @@ Direct damage from Skills applies up to {#}% Chill.`,
 		x: -195.614,
 		y: -247.035
 	},
-	"Enhanced Frost Bolt": {
-		baseSkill: "Frost Bolt",
-		connections: [ "Frost Bolt", "Flickering Frost Bolt", "Glinting Frost Bolt" ],
-		description: `Frost Bolt has a {#}% chance to explode on Chilled enemies, hitting surrounding enemies. Chance increased to 100% against Frozen enemies.`,
+	"强化冰霜彈": {
+		baseSkill: "冰霜彈",
+		connections: [ "冰霜彈", "Flickering 冰霜彈", "Glinting 冰霜彈" ],
+		description: `冰霜彈 击中冰冷的敌人有 {#}% 几率爆炸, 击中周围的敌人. 对冻结的敌人此几率提高为 100% `,
 		id: 1,
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -336.656,
 		y: -421.415
 	},
-	"Flickering Frost Bolt": {
-		baseSkill: "Frost Bolt",
-		connections: [ "Enhanced Frost Bolt" ],
-		description: `Frost Bolt makes Frozen enemies Vulnerable for {#} seconds.`,
+	"Flickering 冰霜彈": {
+		baseSkill: "冰霜彈",
+		connections: [ "强化冰霜彈" ],
+		description: `冰霜彈 makes Frozen enemies Vulnerable for {#} seconds.`,
 		id: 2,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -592.019,
 		y: -455.675
 	},
-	"Glinting Frost Bolt": {
-		baseSkill: "Frost Bolt",
-		connections: [ "Enhanced Frost Bolt" ],
-		description: `Frost Bolt generates {#} Mana when hitting Chilled or Frozen enemies.`,
+	"Glinting 冰霜彈": {
+		baseSkill: "冰霜彈",
+		connections: [ "强化冰霜彈" ],
+		description: `冰霜彈 generates {#} Mana when hitting Chilled or Frozen enemies.`,
 		id: 3,
 		maxPoints: 1,
 		values: [ "4" ],
@@ -89,7 +89,7 @@ Direct damage from Skills applies up to {#}% Chill.`,
 		y: -545.8
 	},
 	"Spark": {
-		connections: [ "Basic", "Enhanced Spark" ],
+		connections: [ "基本", "Enhanced Spark" ],
 		description: `Lucky Hit Chance: {#}%
 Launch a bolt of lightning that shocks an enemy {#} times, dealing {#}% damage each hit.
 
@@ -133,7 +133,7 @@ Killing an enemy has a {#}% chance to form a Crackling Energy.`,
 		y: -207.505
 	},
 	"Arc Lash": {
-		connections: [ "Basic", "Enhanced Arc Lash" ],
+		connections: [ "基本", "Enhanced Arc Lash" ],
 		description: `Lucky Hit Chance: {#}%
 Unleash arcing lightning that deals {#}% damage to enemies in front of you. Every {#} times Arc Lash swipes, it Stuns all enemies hit for {#} seconds.
 
@@ -176,7 +176,7 @@ When you use a Cooldown, enemies around you are Stunned for {#} seconds.`,
 		y: -351.28
 	},
 	"Fire Bolt": {
-		connections: [ "Basic", "Enhanced Fire Bolt" ],
+		connections: [ "基本", "Enhanced Fire Bolt" ],
 		description: `Lucky Hit Chance: {#}%
 Hurl a flaming bolt, dealing {#}% damage and Burning for {#}% damage over {#} seconds.
 
