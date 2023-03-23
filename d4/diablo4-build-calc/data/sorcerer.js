@@ -44,10 +44,12 @@ sorcererData["Trunk Data"] = {
 };
 
 sorcererData["基本"] = {
-	"冰霜彈": {
-		connections: [ "基本", "强化冰霜彈" ],
-		description: `幸運觸發機率：{#}%
-		對敵人施放冰霜彈，造成 {#}% 點傷害與 {#}% 冰冷效果。
+	"冰霜弹": {
+		connections: [ "基本", "强化冰霜弹" ],
+		description: `幸运一击几率：{#}
+对一名敌人投掷冰霜弹，造成 {#} 点伤害并使其冻伤 {#}%。`
+	`幸運觸發機率：{#}%
+		對敵人施放冰霜弹，造成 {#}% 點傷害與 {#}% 冰冷效果。
 
 — Enchantment Effect —
 Direct damage from Skills applies up to {#}% Chill.`,
@@ -58,30 +60,30 @@ Direct damage from Skills applies up to {#}% Chill.`,
 		x: -195.614,
 		y: -247.035
 	},
-	"强化冰霜彈": {
-		baseSkill: "冰霜彈",
-		connections: [ "冰霜彈", "Flickering 冰霜彈", "Glinting 冰霜彈" ],
-		description: `冰霜彈 击中冰冷的敌人有 {#}% 几率爆炸, 击中周围的敌人. 对冻结的敌人此几率提高为 100% `,
+	"强化冰霜弹": {
+		baseSkill: "冰霜弹",
+		connections: [ "冰霜弹", "Flickering 冰霜弹", "Glinting 冰霜弹" ],
+		description: `冰霜弹 击中冰冷的敌人有 {#}% 几率爆炸, 击中周围的敌人. 对冻结的敌人此几率提高为 100% `,
 		id: 1,
 		maxPoints: 1,
 		values: [ "15" ],
 		x: -336.656,
 		y: -421.415
 	},
-	"Flickering 冰霜彈": {
-		baseSkill: "冰霜彈",
-		connections: [ "强化冰霜彈" ],
-		description: `冰霜彈 makes Frozen enemies Vulnerable for {#} seconds.`,
+	"Flickering 冰霜弹": {
+		baseSkill: "冰霜弹",
+		connections: [ "强化冰霜弹" ],
+		description: `冰霜弹 makes Frozen enemies Vulnerable for {#} seconds.`,
 		id: 2,
 		maxPoints: 1,
 		values: [ "3" ],
 		x: -592.019,
 		y: -455.675
 	},
-	"Glinting 冰霜彈": {
-		baseSkill: "冰霜彈",
-		connections: [ "强化冰霜彈" ],
-		description: `冰霜彈 generates {#} Mana when hitting Chilled or Frozen enemies.`,
+	"Glinting 冰霜弹": {
+		baseSkill: "冰霜弹",
+		connections: [ "强化冰霜弹" ],
+		description: `冰霜弹 generates {#} Mana when hitting Chilled or Frozen enemies.`,
 		id: 3,
 		maxPoints: 1,
 		values: [ "4" ],

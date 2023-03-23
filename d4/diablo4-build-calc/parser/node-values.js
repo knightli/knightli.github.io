@@ -2136,18 +2136,18 @@ let nodeValues = {
 	},
 	"Sorcerer": {
 		"基本": {
-			"冰霜彈": [
+			"冰霜弹": [
 				"30",
 				"35",
 				"15"
 			],
-			"强化冰霜彈": [
+			"强化冰霜弹": [
 				"15"
 			],
-			"Flickering 冰霜彈": [
+			"Flickering 冰霜弹": [
 				"3"
 			],
-			"Glinting 冰霜彈": [
+			"Glinting 冰霜弹": [
 				"4"
 			],
 			"Spark": [
@@ -2196,7 +2196,7 @@ let nodeValues = {
 			"Flickering Fire Bolt": [
 				"2"
 			],
-			"冰霜彈 — Enchantment": [
+			"冰霜弹 — Enchantment": [
 				"30"
 			],
 			"Spark — Enchantment": [

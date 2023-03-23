@@ -579,10 +579,10 @@ let nodeHistory = {
 		"Subterfuge: Mending Obscurity": 145
 	},
 	"Sorcerer": {
-		"Basic: 冰霜彈": 0,
-		"Basic: 强化冰霜彈": 1,
-		"Basic: Flickering 冰霜彈": 2,
-		"Basic: Glinting 冰霜彈": 3,
+		"Basic: 冰霜弹": 0,
+		"Basic: 强化冰霜弹": 1,
+		"Basic: Flickering 冰霜弹": 2,
+		"Basic: Glinting 冰霜弹": 3,
 		"Basic: Spark": 4,
 		"Basic: Enhanced Spark": 5,
 		"Basic: Flickering Spark": 6,
