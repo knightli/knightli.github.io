@@ -91,8 +91,9 @@ Tear the flesh from an enemy, dealing {#}% damage per second and forming a usabl
 	},
 	"收割": {
 		connections: [ "Enhanced Reap", "基本" ],
-		description: `生成精魂：{#} 每命中一名敌人: {#}% 点
-		幸运一击几率, 在你面前挥舞一把无形的镰刀，造成 {#}% 点伤害. 使用收割命中敌人会使你的伤害减免效果提高 {#}% ，持续 {#} 秒。`,
+		description: `生成精魂：每命中一名敌人 {#} 点
+幸运一击几率：{#}%
+在你面前挥舞一把无形的镰刀，造成 {#} 点伤害。使用收割命中敌人会使你的伤害减免效果提高 {#}%，持续 {#} 秒。`,
 		id: 4,
 		maxPoints: 5,
 		values: [ "4", "17", "12", "15", "2" ],

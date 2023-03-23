@@ -1163,7 +1163,7 @@ let nodeValues = {
 			"Initiate's Decompose": [
 				"30"
 			],
-			"Reap": [
+			"收割": [
 				"4",
 				"17",
 				"12",
